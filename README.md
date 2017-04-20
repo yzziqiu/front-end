@@ -1,2 +1,7 @@
-# front-end
-basic skills about front-end
+### front-end
+Basic skills about front-end
+
+##### HTML
+Elements, styles
+Javascript, CSS
+Forms

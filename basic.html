@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!--conditional comment-->
+<!--[if IE 9]>
+
+<![endif]-->
+
+<!--internal CSS-->
+
+<title>TBA</title>
+<base href="http://yisiqiu.com" target="_black">
+<head>
+  <!--external>
+  <link rel="stylesheet" href="html/style.css"-->
+  <!--can be website-->
+  <style>
+  body {font-family:verdana;}
+  h1 {color:blue;}
+  p {
+    border:1px solid powderblue;
+    padding:30px;
+    margin:50px;
+  }
+  #p01{
+    color:blue;
+  }
+  p.error{
+    color:red;
+  }
+
+  a:link{
+    color:green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited{
+    color:pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover{
+    color:red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active{
+    color:yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  img{
+    width:27%;
+  }
+  table, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+  th, td{
+    padding:15px;
+  }
+  th{
+    text-align:left;
+  }
+  <table{
+    border-spacing: 5px;
+  }
+  table#01 tr:nth-child(even){
+    width:80%;
+    background-color: #f1f1c1;
+  }
+  table#01 tr:nth-child(even){
+
+    background-color: #eee;
+  }
+
+  div.cities{
+    background-color: :black;
+    color:white;
+    margin 20px 0 20px 0;
+    padding:20px;
+  }
+
+  span.note{
+    font-size: 120%;
+    color:red;
+  }
+
+  </style>
+  <!--also use gif-->
+  <!--margin: out of border 50px-->
+  <!--title, charset..container-->
+
+  <!--    ul{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        background-color: #333333;
+      }
+
+      li{
+        float:left;
+      }
+      li a{
+        display: block;
+        color:white;
+        text-align: center;
+        padding:16px;
+        text-decoration: none;
+      }
+      li a:hover{
+        background-color: #111111;
+      }-->
+  <title>My First HTML</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="web">
+  <meta http-equiv="refresh" content ="30">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <!--javascript-->
+
+  <p id="demo"></p>
+  <script>
+  function mfunction{  document.getElementById("demo").innerHTML = "Hello"
+    document.getElementById("demo").style.fontSize = "25px"
+    document.getElementById("demo").style.color = "red" //backgroundColor
+    document.getElementById("image").src = "pic.gif"
+  }
+
+
+  </script>
+  <!--alternate-->
+  <noscript>
+    sorry no javascript
+  </noscript>
+
+</head>
+<body style = "background-color:grey;">
+  <h1 style = "background-color:yellow;">Heading</h1>
+  <h2 style="text-align:center;"><mark>Second</mark> Heading</h2>
+  <hr>
+  <a href="http://www.yisiqiu.com/">My website</a>
+  <hr>
+  <!--create bookmark-->
+  <a href="index.html#addr">jump to address</a>
+  <!--separate-->
+   <!--style="font-size=300%;"-->
+  <p title="I'm a tooltip">okay</p>
+  <!--inline CSS-->
+  <p style="font-family:verdana;" >  <br /> let's go to</p>
+  <pre style="color:cyan;">try to tab something</pre>
+  <!--alt use:when it cannot be displayed-->
+  <!-- attribute, disabled	Specifies that an input element should be disabled-->
+
+  <p id="p01"><b>This text <del>is</del> bold</b></p>
+  <p><strong>This text is strong</strong></p>
+
+  <p class="error"><i>This text <small>is</small> italic</i></p>
+  <p><em>This text is emphasized</em></p>
+
+   <!--underscored-->
+  <p>This is <ins>inserted </ins></p>
+  <!--down-->
+  <p>This is <sub>subscripted</sub> text.</p>
+  <!--up-->
+  <p>This is <sup>superscripted</sup> text.</p>
+
+  <p>hey time to test quotation <q>build a bright bright future</q> <p>
+
+  <p>here is a quotation from website</p>
+  <blockquote cite="http://yisiqiu.com">
+    for more then 1000 people, they visit virtualization layer
+  </blockquote>
+
+  <p> the <abbr title="World Health Organization">WHO</abbr> was found in 1948</p>
+
+  <address id="addr">written by Izzy<br>
+  visit us at:<br>
+  USA</address>
+
+  <bdo dir="rtl">this line will be written from right to left<br></bdo>
+
+
+  <!--alt not shown-->
+  <img src="file:///Users/izzyqiu/Downloads/profile.jpg" alt="profile" width="144" height="108">
+  <!--credit to photo-->
+  <p style="background-color:#CCCCCC;"><cite>The photo</cite> by izzyqiu</p>
+
+  <!--link-->
+  <!--_top in the full body of window-->
+  <a href="http://www.yisiqiu.com" target="_top"> visit my _top website </a>
+  <!--a href="html_images.asp">HTML image</a-->
+
+
+  <!--target attribute:_self current one default; blank new one-->
+  <a href="http://www.yisiqiu.com" target="_blank"> visit my _blank website </a>
+
+  <!--image as link-->
+  <a href="http://yisiqiu.com">
+    <img src="file:///Users/izzyqiu/Downloads/profile.jpg" alt="image link"
+    style="width:42px;height:30px;border:0">
+  </a>
+
+  <!--float-->
+  <p><img src="smiley.gif" alt="only test"
+    style="float:left;width:42px;height:42px">
+  The image will float to the left</p>
+
+  <!--map usemap equal to pointer-->
+  <img src="planets.gif" alt="Planets" usemap="#planetmap" style="width:145px;height:126px;">
+
+  <map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+
+<table style="width:100%">
+  <caption>address book</caption>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>12</td>
+  </tr>
+</table>
+
+<br>
+
+<!--span-->
+<table id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th colspan="2">Telephone</th>
+  </tr>
+  <tr>
+    <td>Bill</td>
+    <td>2123</td>
+    <td>2321312</td>
+  </tr>
+</table>
+
+<br>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <td>Bill</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telephone:</th>
+    <td>2123</td>
+  </tr>
+  <tr>
+    <td>12314</td>
+  </tr>
+</table>
+
+<!--bullet:disc,   circle square-->
+<ul style="list-style-type:disc">
+  <li>Coffee</li>
+  <li>Tea</li>
+</ul>
+
+<!--ordered A, a I,i-->
+<ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+</ol>
+
+
+<!--description list-->
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+
+<!--Nested-->
+<ul style="list-style-type:disc">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <ul>
+    <li>Black tea</li>
+    <li>Green tea</li>
+  </ul>
+</ul>
+
+<!--container for elements-->
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p> London blahblahblah </p>
+</div>
+
+
+<!--coainer for text-->
+<h1>My <span style="color:yellow"> important</span> </h1>
+
+<div class="cities">
+  <h2> London</h2>
+  <p> London is </p>
+
+<div class="cities">
+  <h2> Tokyo </h2>
+  <p> Tokyo is </p>
+
+<h1> my <span class="note"> important</span> heading </h1>
+<p> yay <span class="note"> haha </span>
+
+
+
+
+<!--iframe-->
+<iframe src="demo.htm" name="iframe" height="200" width="200"
+style="border:none"> </iframe>
+<p><a href="http://yisiqiu.com" target="iframe"> izzy </a> </p>
+
+<!--header
+nav
+section
+article    aside
+footer
+
+-->
+<pre>
+<code>
+  x+y=5
+
+</code>
+</pre>
+<p>
+  save the document by pressing <kdb> Ctrl + S </kdb>
+  return <samp> error </samp>
+
+  einstein: <var>E</var> = <var>mc</var> <sup>2</sup>
+</p>
+
+
+<form action="/action_page.php" method="post">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form>
+
+<form>
+  <input type="radio" name="gender" value="male" checked> male <br>
+  <input type="radio" name="gender" value="female"> female <br>
+</form>
+
+<!-- slide -->
+<select name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="toyota">Toyota</option>
+  <option value="honda">Honda</option>
+</select>
+
+
+<textarea name="message" rows="10" cols="30">
+  playground
+</textarea>
+
+<button type="button" onclick="alert('hello')" value=" click">
+</button>
+
+<!--text and select inside only 5 list keygen output-->
+<form action="/action_page.php">
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="ie">
+    <option value="chrome">
+  </datalist>
+</form>
+
+
+<form action="/action_page.php">
+  Username: <input type="text" name="user">
+  Encryption: <keygen name="security">
+  <input type="submit">
+</form>
+
+<form action="/action_page.php"
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+
+  <br><br>
+  <input type ="submit">
+</form>
+
+<form>
+  <input type="checkbox" name="veh1" value="bike"> I have bikes <br>
+  <input type="checkbox" name="veh1" value="car"> I have cars <br>
+</form>
+
+<form>
+  Select your favorite color:
+  <input type="color" name="favcolor">
+</form>
+
+<form>
+  Birthday:
+  <input type="date" name="bday">
+</form>
+
+<form>
+  Enter a date before 1980-01-01:
+  <input type="date" name="bday" max="1979-12-31"><br>
+  Enter a date after 2000-01-01:
+  <input type="date" name="bday" min="2000-01-02"><br>
+</form>
+
+<form>
+  Birthday (date and time):
+  <input type="datetime-local" name="bdaytime">
+</form>
+
+<form>
+  E-mail:
+  <input type="email" name="email">
+</form>
+
+<form>
+  Birthday (month and year):
+  <input type="month" name="bdaymonth">
+</form>
+
+<form>
+  Quantity (between 1 and 5):
+  <input type="number" name="quantity" min="1" max="5">
+</form>
+
+<!-- step 10 min 10 max 30-->
+<form>
+  Quantity:
+  <input type="number" name="points" min="0" max="100" step="10" value="30">
+</form>
+
+<!--range-->
+<form>
+  <input type="range" name="points" min="0" max="10">
+</form>
+
+
+<form>
+  Telephone:
+  <input type="tel" name="usrtel">
+</form>
+
+<form>
+  Select a time:
+  <input type="time" name="usr_time">
+</form>
+
+<form>
+  Add your homepage:
+  <input type="url" name="homepage">
+</form>
+
+<form>
+  Select a week:
+  <input type="week" name="week_year">
+</form>
+
+<!--readonly-->
+<form action="">
+first name:<br>
+<input type="text" name="firstname" value="monica" readonly>
+</form>
+
+<!--disabled-->
+<form action="">
+first name:<br>
+<input type="text" name="firstname" value="monica" disabled>
+</form>
+
+<!--maxlength-->
+<form action="">
+first name:<br>
+<input type="text" name="firstname" value="monica" maxlength="10">
+</form>
+
+<!-- autocomplete="on/off nonvalidate autofocus"-->
+<form action="/action_page.php" id="form1">
+  First name: <input type="text" name="fname"><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formaction="/action_page2.php" value="submit as admin">
+  <input type="submit" formenctype="multipart/form-data"
+  value="Submit as Multipart/form-data">
+</form>
+
+Last name: <input type="text" name="lname" form="form1">
+
+<!--formmethod="post" formnovalidate value formtarget="_blank"-->
+
+<!--only three letters-->
+Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
+
+<!-- already init-->
+<input type="text" name="fname" placeholder="First name">
+
+
+Username: <input type="text" name="usrname" required>
+
+</body>
+</html>
